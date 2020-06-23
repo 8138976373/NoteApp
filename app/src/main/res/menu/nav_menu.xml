@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/aaaaaa"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/share_screen"
+            android:icon="@drawable/ic_messages"
+            android:title="Share"/>
+         <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/ic_record"
+            android:title="Record"/>
+        <item
+            android:id="@+id/nav_slide"
+            android:icon="@drawable/ic_slide_create"
+            android:title="Slide Create"/>
+    </group>
+
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_update"
+                android:title="Update Profile"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>
